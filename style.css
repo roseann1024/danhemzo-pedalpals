@@ -1,5 +1,5 @@
 body {
-  background: black;
+  background: #050608;
   font-family: "Exo", sans-serif;
   color: white;
 }
@@ -10,8 +10,11 @@ body {
 }
 
 body header {
-  margin: 20px 0;
   padding: 30px;
+}
+
+header .bike-illustrator {
+  width: 500px;
 }
 
 header img {
@@ -20,8 +23,22 @@ header img {
   width: 1000px;
 }
 
+a {
+  font-size: 10px;
+  text-decoration: none;
+  color: white;
+  text-align: center !important;
+}
+
+.illustrator-credit {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
 .social-links a {
   color: #f5821f;
+  font-size: 20px;
 }
 
 .social-links a:hover {
@@ -34,8 +51,9 @@ footer {
 
 @media (max-width: 960px) {
   body header {
-    padding: 40px 0;
-    margin: 50px 0;
+    padding: 20px 0;
+    margin: 20px 0;
+    margin-bottom: 0;
   }
 
   header img {
@@ -44,7 +62,6 @@ footer {
 
   main h1 {
     font-size: 40px;
-    padding: 20px;
   }
 
   footer {
