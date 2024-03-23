@@ -1,0 +1,53 @@
+body {
+  background: black;
+  font-family: "Exo", sans-serif;
+  color: white;
+}
+
+.active {
+  color: #f5821f !important;
+  font-weight: 700;
+}
+
+body header {
+  margin: 20px 0;
+  padding: 30px;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.social-links a {
+  color: #f5821f;
+}
+
+.social-links a:hover {
+  color: white;
+}
+
+footer {
+  font-size: 10px;
+}
+
+@media (max-width: 960px) {
+  body header {
+    padding: 40px 0;
+    margin: 50px 0;
+  }
+
+  header img {
+    width: 320px;
+  }
+
+  main h1 {
+    font-size: 40px;
+    padding: 20px;
+  }
+
+  footer {
+    margin-top: 150px;
+  }
+}
