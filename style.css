@@ -120,7 +120,15 @@ footer {
     font-size: 40px;
   }
 
-  h3 {
+  .services h3 {
     font-size: 12px;
+  }
+
+  .contact-header h3 {
+    padding-top: 30px !important;
+  }
+
+  iframe {
+    width: 150 !important;
   }
 }
