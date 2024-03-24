@@ -21,9 +21,17 @@ header .bike-illustrator {
   width: 600px;
 }
 
+.contact-header .open-illustrator {
+  width: 250px;
+}
+
 .card-body {
   background: #f5821f !important;
   color: white !important;
+}
+
+strong {
+  color: #f5821f;
 }
 
 header img {
@@ -79,6 +87,18 @@ a {
   color: #f5821f;
   text-align: center;
   font-weight: 900;
+}
+
+.contact-header h1 {
+  color: #f5821f;
+  text-align: center;
+  font-weight: 900;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 
 footer {
