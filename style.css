@@ -25,6 +25,11 @@ header .bike-illustrator {
   width: 250px;
 }
 
+section .email-illustrator {
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+}
 .card-body {
   background: #f5821f !important;
   color: white !important;
@@ -83,6 +88,10 @@ a {
   color: white;
 }
 
+a:hover {
+  font-style: italic;
+}
+
 .services-header h1 {
   color: #f5821f;
   text-align: center;
@@ -99,6 +108,15 @@ iframe {
   display: block;
   margin: 0 auto;
   padding: 20px 0;
+}
+
+section {
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  background: #f5821f;
+  padding: 20px;
+  border-radius: 30px;
 }
 
 footer {
