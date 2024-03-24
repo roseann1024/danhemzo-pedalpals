@@ -17,6 +17,15 @@ header .bike-illustrator {
   width: 500px;
 }
 
+.services-header .bike-illustrator-services {
+  width: 600px;
+}
+
+.card-body {
+  background: #f5821f !important;
+  color: white !important;
+}
+
 header img {
   display: block;
   margin: 0 auto;
@@ -45,6 +54,12 @@ a {
   color: white;
 }
 
+.services-header h1 {
+  color: #f5821f;
+  text-align: center;
+  font-weight: 900;
+}
+
 footer {
   font-size: 10px;
 }
@@ -62,9 +77,5 @@ footer {
 
   main h1 {
     font-size: 40px;
-  }
-
-  footer {
-    margin-top: 150px;
   }
 }
