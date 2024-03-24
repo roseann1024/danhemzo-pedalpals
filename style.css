@@ -39,6 +39,27 @@ a {
   text-align: center !important;
 }
 
+.button-check {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 175px;
+  border-radius: 8px;
+  padding: 10px 15px;
+  border: none;
+  background: #f5821f;
+  color: white;
+  font-size: 16px;
+  transition: all 200ms ease-in-out;
+}
+
+.button-check:hover {
+  background: white;
+  color: #f5821f;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 .illustrator-credit {
   text-align: center;
   padding: 0;
@@ -77,5 +98,9 @@ footer {
 
   main h1 {
     font-size: 40px;
+  }
+
+  h3 {
+    font-size: 12px;
   }
 }
